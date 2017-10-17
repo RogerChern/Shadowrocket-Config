@@ -9656,11 +9656,11 @@ a.upnorma.com^$webrtc
 ||voodoo.com^$~stylesheet,third-party
 
 [Adblock Plus 2.1]
-! Checksum: Evph3w9kWC6lOiccpQgGVA
-! Version: 201710171351
+! Checksum: a05QRT5f/x5t+ddksc+RXw
+! Version: 201710171411
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 17 Oct 2017 13:51 UTC
+! Last Modified: 17 Oct 2017 14:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING

@@ -15,7 +15,7 @@ class SRConfig:
     __OutputSimplifyRuleName = "simplifyrule.txt"
     __OutputRuleWithAdBlockName = "rulewithad.txt"
 
-    __SimplifyLength = 2000
+    __SimplifyLength = 0
 
     __GFWListUrl = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
     __BlockRulesUrls = ["https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt",
@@ -90,7 +90,7 @@ class SRConfig:
                 self.__ProxyList.append(newLine)
             if newLine != "":
                 proxyRules += newLine + "\n"
-        return proxyRules
+        return ""
 
     def __getSimplifyRules(self, fileName):
         simplifyRules = ""
