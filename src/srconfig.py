@@ -19,7 +19,9 @@ class SRConfig:
 
     __GFWListUrl = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
     __BlockRulesUrls = ["https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt",
-                        "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt"]
+                        "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
+                        "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+                        "https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf_paranoid.txt"]
 
     __ProxyList = []
     __BlockList = []
